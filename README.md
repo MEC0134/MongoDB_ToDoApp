@@ -23,7 +23,9 @@ The application uses a MongoDB database to store the to-do lists and items. By d
 
 To start the application, run the following command:
 
+```bash
 node app.js
+```
 
 Once the server is running, you can access the application by visiting `http://localhost:3000` in your web browser.
 
@@ -37,7 +39,7 @@ To add a new item to a list, enter the item text in the input field at the top o
 
 ### Deleting items from a list
 
-To delete an item from a list, click the checkbox next to the item The item will be removed from the list and deleted from the database.
+To delete an item from a list, click the checkbox next to the item. The item will be removed from the list and deleted from the database.
 
 
 ## Acknowledgements
