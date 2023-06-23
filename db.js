@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
-
+const password = process.env.DB_PASSWORD;
 
 // db connectionm
-mongoose.connect("mongodb://127.0.0.1:27017/toDoListDB");
+mongoose.connect("mongodb+srv://m96celik:"+password+"@cluster0.2h20eno.mongodb.net/toDoListDB");
 
 // item schema
 const itemsSchema = new mongoose.Schema({
